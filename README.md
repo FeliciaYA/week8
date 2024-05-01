@@ -68,3 +68,6 @@ Use `lerpColor()`function to mix two colors to find the right color
 ```
 lerpColor(c1, c2, amt)
 ```
+
+## Expectation and realization
+- Based on these 6 types of code, I will use the `setup()` function at the very beginning to initialise the canvas and the colour mode, setting the foundation for the whole painting process. And in the `draw()` function, create `random()` to randomise vertex position, shape size and colour to create different images with `beginShape()` and `endShape()`. `noLoop()` to make sure the `draw()` function `draw()` is run only once. Finally, `lerpColor()` is used to achieve smooth transitions in colour to enhance the visualisation of the image.
